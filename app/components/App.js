@@ -1,4 +1,5 @@
 const React = require('react');
+const WeatherInput = require('./WeatherInput');
 
 function App() {
   return (
@@ -7,12 +8,7 @@ function App() {
         <h1>Main Header</h1>
       </header>
       <div className='content' style={{backgroundImage: "url('app/images/pattern.svg')"}}>
-        <form>
-          <label>Enter a City and State
-            <input type='text' name='location' size='15' placeholder='Muncie, IN'/>
-          </label>
-          <input type='submit' name='get-weather' value='Get Weather'/>
-        </form>
+        <WeatherInput layout='column'/>
       </div>
     </div>
   );
