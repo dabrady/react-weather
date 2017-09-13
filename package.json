@@ -12,8 +12,13 @@
       "react"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabrady/react-weather.git"
+  },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/dabrady/react-weather#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
